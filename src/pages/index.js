@@ -36,7 +36,7 @@ const useStyles = makeStyles(theme => createStyles({
   strongHighlight: {
     textDecoration: 'underline',
     fontWeight: 'bold',
-    backgroundColor: 'yellow'
+    backgroundColor: '#fbf8ae'
   },
   callout: {
     backgroundColor: '#ddd',
@@ -101,9 +101,9 @@ export default function Home() {
           </Typography>
 
           <List>
-            <ListItem><ListItemText>A decentralized crypto network that is earned, owned and governed by the community from the outset.</ListItemText></ListItem>
-            <ListItem><ListItemText>Everyone can participate on equal footing.</ListItemText></ListItem>
-            <ListItem><ListItemText>There is no early access, pre-mine or allocation of tokens.</ListItemText></ListItem>
+            <ListItem><ListItemText>➡️ A decentralized crypto network that is earned, owned and governed by the community from the outset.</ListItemText></ListItem>
+            <ListItem><ListItemText>➡️ Everyone can participate on equal footing.</ListItemText></ListItem>
+            <ListItem><ListItemText>➡️ There is no early access, pre-mine or allocation of tokens.</ListItemText></ListItem>
           </List>
 
           <Box p={2} className={classes.callout}>
@@ -162,10 +162,10 @@ export default function Home() {
           </Typography>
 
           <List>
-            <ListItem><ListItemText>We identify the most promising projects that want to do a Fair Launch.</ListItemText></ListItem>
-            <ListItem><ListItemText>We make a <span className={classes.strongHighlight}>no-strings-attached grant</span> to cover the costs of audit and launch.</ListItemText></ListItem>
-            <ListItem><ListItemText><span className={classes.strongHighlight}>We never take any allocation of tokens before launch.</span></ListItemText></ListItem>
-            <ListItem><ListItemText>After launch, we initiate a governance vote to let the community decide to <span className={classes.strongHighlight}>pay the grant forward</span> to the next project that wants to do a Fair Launch.</ListItemText></ListItem>
+            <ListItem><ListItemText>1. We identify the most promising projects that want to do a Fair Launch.</ListItemText></ListItem>
+            <ListItem><ListItemText>2. We make a <span className={classes.strongHighlight}>no-strings-attached grant</span> to cover the costs of audit and launch.</ListItemText></ListItem>
+            <ListItem><ListItemText>3. <span className={classes.strongHighlight}>We never take any allocation of tokens before launch.</span></ListItemText></ListItem>
+            <ListItem><ListItemText>4. After launch, we initiate a governance vote to let the community decide to <span className={classes.strongHighlight}>pay the grant forward</span> to the next project that wants to do a Fair Launch.</ListItemText></ListItem>
           </List>
 
           <Typography variant="body1" gutterBottom>
@@ -188,13 +188,13 @@ export default function Home() {
 
           <List>
             <ListItem><ListItemText>
-              <Link href="https://twitter.com/gavinmcdermott">Gavin McDermott</Link>
+              <Link href="https://twitter.com/gavinmcdermott">➡️ Gavin McDermott</Link>
             </ListItemText></ListItem>
             <ListItem><ListItemText>
-              <Link href="https://twitter.com/Joe_Gerber_">Joe Gerber</Link>
+              <Link href="https://twitter.com/Joe_Gerber_">➡️ Joe Gerber</Link>
             </ListItemText></ListItem>
             <ListItem><ListItemText>
-              <Link href="https://twitter.com/bramanathan">Reuben Bramanathan</Link>
+              <Link href="https://twitter.com/bramanathan">➡️ Reuben Bramanathan</Link>
             </ListItemText></ListItem>
           </List>
         </Box>
@@ -212,40 +212,40 @@ export default function Home() {
 
           <List>
             <ListItem><ListItemText>
-              <Link href="https://twitter.com/Cooopahtroopa">Cooper Turley</Link>
+              <Link href="https://twitter.com/Cooopahtroopa">➡️ Cooper Turley</Link>
             </ListItemText></ListItem>
             <ListItem><ListItemText>
-              <Link href="https://twitter.com/StaniKulechov">Stani Kulechov</Link>
+              <Link href="https://twitter.com/StaniKulechov">➡️ Stani Kulechov</Link>
             </ListItemText></ListItem>
             <ListItem><ListItemText>
-              <Link href="https://twitter.com/kaiynne">Kain Warwick</Link>
+              <Link href="https://twitter.com/kaiynne">➡️ Kain Warwick</Link>
             </ListItemText></ListItem>
             <ListItem><ListItemText>
-              <Link href="https://twitter.com/CamiRusso">Camila Russo</Link>
+              <Link href="https://twitter.com/CamiRusso">➡️ Camila Russo</Link>
             </ListItemText></ListItem>
             <ListItem><ListItemText>
-              <Link href="https://twitter.com/RyanSAdams">Ryan Sean Adams</Link>
+              <Link href="https://twitter.com/RyanSAdams">➡️ Ryan Sean Adams</Link>
             </ListItemText></ListItem>
             <ListItem><ListItemText>
-              <Link href="https://twitter.com/ljxie">Linda Xie</Link>
+              <Link href="https://twitter.com/ljxie">➡️ Linda Xie</Link>
             </ListItemText></ListItem>
             <ListItem><ListItemText>
-              <Link href="https://twitter.com/Flynnjamm">Brian Flynn</Link>
+              <Link href="https://twitter.com/Flynnjamm">➡️ Brian Flynn</Link>
             </ListItemText></ListItem>
             <ListItem><ListItemText>
-              <Link href="https://twitter.com/jchervinsky">Jake Chervinsky</Link>
+              <Link href="https://twitter.com/jchervinsky">➡️ Jake Chervinsky</Link>
             </ListItemText></ListItem>
             <ListItem><ListItemText>
-              <Link href="https://twitter.com/js_horne">Jacob Horne</Link>
+              <Link href="https://twitter.com/js_horne">➡️ Jacob Horne</Link>
             </ListItemText></ListItem>
             <ListItem><ListItemText>
-              <Link href="https://twitter.com/jbrukh">Jake Brukhman</Link>
+              <Link href="https://twitter.com/jbrukh">➡️ Jake Brukhman</Link>
             </ListItemText></ListItem>
             <ListItem><ListItemText>
-              <Link href="https://twitter.com/cyounessi1">Cyrus Younessi</Link>
+              <Link href="https://twitter.com/cyounessi1">➡️ Cyrus Younessi</Link>
             </ListItemText></ListItem>
             <ListItem><ListItemText>
-              <Link href="https://twitter.com/willwarren89">Will Warren</Link>
+              <Link href="https://twitter.com/willwarren89">➡️ Will Warren</Link>
             </ListItemText></ListItem>
           </List>
         </Box>
