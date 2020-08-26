@@ -33,11 +33,6 @@ const useStyles = makeStyles(theme => createStyles({
   bold: {
     fontWeight: 'bold',
   },
-  strongHighlight: {
-    textDecoration: 'underline',
-    fontWeight: 'bold',
-    backgroundColor: '#fbf8ae'
-  },
   callout: {
     backgroundColor: '#ddd',
     borderRadius: '3px',
@@ -142,7 +137,7 @@ export default function Home() {
             Our Hypothesis
           </Typography>
           <Typography variant="body1" gutterBottom>
-            <span className={classes.strongHighlight}>We believe a significant number of high-quality, crypto-native founders will choose the Fair Launch path if it's as viable as traditional alternatives.</span> If this is true, we will soon see more applications of the Fair Launch—enabling us to more quickly iterate on its mechanisms. 
+            <span className={classes.strong}>We believe a significant number of high-quality, crypto-native founders will choose the Fair Launch path if it's as viable as traditional alternatives.</span> If this is true, we will soon see more applications of the Fair Launch—enabling us to more quickly iterate on its mechanisms. 
           </Typography>
           <Typography variant="body1" gutterBottom>
             However, one key barrier to today's Fair Launch is the high cost of a code audit and early product work. This forces projects into the position of either shipping high risk contracts, or not shipping at all. 
@@ -163,9 +158,9 @@ export default function Home() {
 
           <List>
             <ListItem><ListItemText>1. We identify the most promising projects that want to do a Fair Launch.</ListItemText></ListItem>
-            <ListItem><ListItemText>2. We make a <span className={classes.strongHighlight}>no-strings-attached grant</span> to cover the costs of audit and launch.</ListItemText></ListItem>
-            <ListItem><ListItemText>3. <span className={classes.strongHighlight}>We never take any allocation of tokens before launch.</span></ListItemText></ListItem>
-            <ListItem><ListItemText>4. After launch, we initiate a governance vote to let the community decide to <span className={classes.strongHighlight}>pay the grant forward</span> to the next project that wants to do a Fair Launch.</ListItemText></ListItem>
+            <ListItem><ListItemText>2. We make a <span className={classes.strong}>no-strings-attached grant</span> to cover the costs of audit and launch.</ListItemText></ListItem>
+            <ListItem><ListItemText>3. <span className={classes.strong}>We never take any allocation of tokens before launch.</span></ListItemText></ListItem>
+            <ListItem><ListItemText>4. After launch, we initiate a governance vote to let the community decide to <span className={classes.strong}>pay the grant forward</span> to the next project that wants to do a Fair Launch.</ListItemText></ListItem>
           </List>
 
           <Typography variant="body1" gutterBottom>
@@ -262,7 +257,7 @@ export default function Home() {
             We are running the first Fair Launch experiment with a founding team and network that will be selected soon.
           </Typography>
           <Typography variant="body1" gutterBottom>
-            So if you’re a founder who wants to work with our team and this amazing network of people committed to evolving the Fair Launch, let us know about your project in a quick email (<span className={classes.strongHighlight}>launchfair@fairlaunch.capital</span>)
+            So if you’re a founder who wants to work with our team and this amazing network of people committed to evolving the Fair Launch, let us know about your project in a quick email (<span className={classes.strong}>launchfair@fairlaunch.capital</span>)
           </Typography>
         </Box>
 
